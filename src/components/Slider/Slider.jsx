@@ -5,12 +5,15 @@ import Slide from "./Slide/Slide";
 import { IconSliderArrow } from "../Icons/Icons";
 import Dot from "./Dot/Dot";
 
+import img1 from '../../../public/products/Rectangle 2.png';
+import img2 from '../../../public/products/Rectangle 3.png';
+
 const initialItemsState = [
     {
         id: 1,
         title: "New Balance - new collection",
         description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos eligendi saepe expedita itaque earum, adipisci voluptas, consequuntur praesentium excepturi vel debitis blanditiis ipsum suscipit cumque fugiat sed incidunt veritatis explicabo.",
-        image: "public/products/Rectangle 2.png",
+        image: img1,
         button: {
             url: "/single/1",
             text: "Перейти"
@@ -20,7 +23,7 @@ const initialItemsState = [
         id: 2,
         title: "New Balance - new collection 222",
         description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos eligendi saepe expedita itaque earum, adipisci voluptas, consequuntur praesentium excepturi vel debitis blanditiis ipsum suscipit cumque fugiat sed incidunt veritatis explicabo.",
-        image: "public/products/Rectangle 3.png",
+        image: img2,
         button: {
             url: "/single/2",
             text: "Перейти"
