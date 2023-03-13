@@ -1,14 +1,14 @@
 import { useContext } from 'react';
-import { CartIcon } from '../../../../React Projects/react-sneakers/src/components/Icons/Icon';
 import LogoImg from '../../../public/PeakStore-Full-Logo.svg';
 import { ModalContext } from '../../pages/Root';
+import { IconCart } from '../Icons/Icons';
 
 const CartButton = () => {
     const {toggleModal} = useContext(ModalContext);
     
     return (
         <button onClick={toggleModal} className="link-style">
-            <CartIcon/> 
+            <IconCart/>
         </button>
     );
 }
