@@ -7,11 +7,12 @@ import Dot from "./Dot/Dot";
 
 import img1 from '../../../public/products/Rectangle 2.png';
 import img2 from '../../../public/products/Rectangle 3.png';
+import img3 from '../../../public/products/Rectangle 4.png';
 
 const initialItemsState = [
     {
         id: 1,
-        title: "New Balance - new collection",
+        title: "Atomic Heart",
         description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos eligendi saepe expedita itaque earum, adipisci voluptas, consequuntur praesentium excepturi vel debitis blanditiis ipsum suscipit cumque fugiat sed incidunt veritatis explicabo.",
         image: img1,
         button: {
@@ -21,11 +22,21 @@ const initialItemsState = [
     },
     {
         id: 2,
-        title: "New Balance - new collection 222",
+        title: "Rainbow Six Siege",
         description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos eligendi saepe expedita itaque earum, adipisci voluptas, consequuntur praesentium excepturi vel debitis blanditiis ipsum suscipit cumque fugiat sed incidunt veritatis explicabo.",
         image: img2,
         button: {
             url: "/single/2",
+            text: "Перейти"
+        }
+    },
+    {
+        id: 2,
+        title: "Ne pomnu",
+        description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos eligendi saepe expedita itaque earum, adipisci voluptas, consequuntur praesentium excepturi vel debitis blanditiis ipsum suscipit cumque fugiat sed incidunt veritatis explicabo.",
+        image: img2,
+        button: {
+            url: "/single/3",
             text: "Перейти"
         }
     }
