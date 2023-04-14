@@ -4,6 +4,7 @@ import { IconDelete, IconCart, IconEmail, IconExit, IconLocation, IconPhone, Ico
 import products from "../components/Items/products";
 import Product from "../components/Product/Product";
 import Slider from "../components/Slider/Slider";
+import FeedbackPage from "./FeedbackPage";
 
 
 
@@ -111,27 +112,7 @@ const HomePage = () => {
             </section>
 
             <section id="feedback" className="feedback">
-                <div className="feedback_container">
-                    <div className="feedback_box-container container">
-                        <div className="feedback_text-box">
-                            <h1>Подписка на рассылку</h1>
-                            <p>
-                            Lorem ipsum dolor sit amet consectetur. Eget mattis proin mauris orci gravida. Mauris bibendum aliquam ultrices augue mauris lacus. Dui ut eleifend egestas amet nec luctus morbi. Egestas tincidunt libero nisi eget ullamcorper. Lorem ipsum dolor sit amet consectetur.
-                            </p>
-                            <div className="feedback_actions">
-                                <div className="search-box">
-                                    <div className="search-box-img image-box">
-                                        <IconEmail/>
-                                    </div>
-                                    <input type="text" placeholder="Email..." className="search-box_input" />
-                                </div>
-                                <a href="#" className="button-style">Отправить</a>
-                            </div>
-                        </div>
-                    </div>
-                    <span className="darken_img"></span>
-                    <img src="public/products/Rectangle 4.png" alt="" className="feedback_bg" />
-                </div>
+                <FeedbackPage/>
             </section>
         </div>
     )
